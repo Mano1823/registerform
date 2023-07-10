@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <h1 style= text-align:center>Registration Form</h1>
+    <link rel = "stylesheet" href = "reg.css">
+</head>
+<body>
+    <form action="https://formspree.io/f/mnqkqzdl"; method = "post"; style =  text-align:center>
+        <div class = "box">
+             <label for = "name">Name</label>
+             <input type = "text" name = "name"required>
+             <label for = "email">E-mail</label>
+             <input type = "email" name = "E-mail"required>
+             <label for = "password">Password</label>
+             <input type = "password" name = "password"required>
+             <label for = "Mobilenumber">Mobile Number</label>
+             <input type = "tel" name = "Mobile Number"required>
+             <label for = "gender">Gender</label>
+             <select id = "gender">
+                <option value = "male">Male</option>
+                <option value = "female">female</option>
+                <option value = "others">others</option>
+             </select>
+             <label for = "zipcode">Zipcode</label>
+             <input type = "tel" name = "Zipcode"required>
+             <label for = "about">About</label>
+             <input type = "text area" name = "About"required>
+             <div id="submit">
+               <input type  = "submit" value = "Register" required>
+             </div>
+             
+        </div>
+    </form>
+</body>
+</html>
